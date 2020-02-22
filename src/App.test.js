@@ -44,12 +44,13 @@ describe('App component', () =>
 
 		textArea.setValue('New post');
 		wrapper.vm.$children[0].message = 'New Post';
+		await Vue.nextTick();
 		button.trigger('click');
 
 		// We should have this message in PostList component
 		// In a dom
 		await Vue.nextTick();
-		expect(wrapper.html()).toContain('New post');
+		expect(wrapper.html()).toContain('New Post');
 	});
 });
 
