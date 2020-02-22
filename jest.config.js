@@ -21,7 +21,7 @@ module.exports = {
 		'!**/node_modules/**'
 	],
 	coverageReporters: [
-		'text'
+		'text', 'html'
 	],
 	// Coverage, 80% at least
 	coverageThreshold: {

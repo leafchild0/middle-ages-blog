@@ -28,8 +28,8 @@
 		},
 		methods: {
 			addPost(p) {
-        this.posts.push(p);
-      }
+				if (p) this.posts.push(p);
+			}
 		}
 	};
 </script>
