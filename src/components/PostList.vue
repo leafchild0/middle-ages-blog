@@ -13,7 +13,7 @@ import Post from './Post.vue';
 
 export default {
 	name: 'post-list',
-	props: ['posts'],
+	props: {'posts': Array},
 	components: {
 		Post
 	}

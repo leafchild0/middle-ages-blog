@@ -1,5 +1,4 @@
 <template>
-
 <div class="post">
 	<div class="data">{{ value }}</div>
 </div>
