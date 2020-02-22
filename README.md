@@ -1,4 +1,5 @@
 # middle-ages-blog
+Small Vue app with tests for QA workshop. Uses Jest. Has integration tests.
 
 ## Project setup
 ```
@@ -20,5 +21,8 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Run tests
+```
+npm run test
+npm run test:watch
+```
